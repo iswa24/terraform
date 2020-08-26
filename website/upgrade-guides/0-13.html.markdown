@@ -448,7 +448,7 @@ can automatically determine the new addresses for these using a lookup table in
 the public Terraform Registry. That lookup table is accessed by using the
 special namespace `-`.
 
-When you run `init`, terraform generates a list of required providers based on
+When you run `init`, Terraform generates a list of required providers based on
 both the configuration and state. Legacy-style providers - such as providers in
 a statefile written with Terraform v0.12 - don't have a namespace, so terraform
 uses the placeholder namespace `-` to query the registry. That is why you may

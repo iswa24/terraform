@@ -62,7 +62,7 @@ tfe.example.com/mycorp/random
 
 ### Provider local name
 It is possible to have multiple providers with the same type in a single
-terraform configuration. To avoid ambiguity, you must declare unique local names
+Terraform configuration. To avoid ambiguity, you must declare unique local names
 for providers. Local names are module-specific, and do not need to be unique or
 the same in all of your modules; Terraform references providers by their FQNs.
 

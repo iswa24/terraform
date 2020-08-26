@@ -25,7 +25,7 @@ You should be familiar with the following concepts before continuing:
 
 ### Terraform Registry namespace 
 
-Modules and providers are stored in *namespaces* in the [Terraform Registry](https://rigstry.terraform.io), which are similar in concept to GitHub Organizations. Prior to the Terraform v0.13 release, all provider binaries available for automatic installation were in the `terraform-providers` registry namespace and the `terraform-providers` GitHub organization. During the Terraform v0.13 development cycle, we moved all of the Official HashiCorp providers into the `hashicorp` namespace, and the remaining Trusted Partner
+Modules and providers are stored in *namespaces* in the [Terraform Registry](https://registry.terraform.io), which are similar in concept to GitHub Organizations. Prior to the Terraform v0.13 release, all provider binaries available for automatic installation were in the `terraform-providers` registry namespace and the `terraform-providers` GitHub organization. During the Terraform v0.13 development cycle, we moved all of the Official HashiCorp providers into the `hashicorp` namespace, and the remaining Trusted Partner
 providers will move into their own namespaces over time. See the [Registry documentation](../registry/index.html) to learn more. 
 
 ### Provider Type
